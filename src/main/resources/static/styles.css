@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #009688;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.intro p {
+    font-size: 1.1em;
+}
+
+.reservation form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reservation input {
+    padding: 10px;
+    font-size: 1em;
+    margin-bottom: 10px;
+    width: 80%;
+    max-width: 300px;
+}
+
+.reservation button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #009688;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.reservation button:hover {
+    background-color: #00796b;
+}
+
+.video-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #e0e0e0;
+}
